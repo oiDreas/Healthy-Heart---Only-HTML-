@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 15%;
+    background-color: whitesmoke;
+    padding: 10px 20px 0px;
+}
+.menu h3 {
+    text-align: center;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+}
+.menu ul {
+    list-style: none;
+}
+.menu ul li a{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+.menu ul li a:hover {
+    color: burlywood;
+}
+
+.header {
+    background-color: white;
+    min-height: 150px;
+}
+
+.content {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.content span {
+    color: red;
+}
+
+
+.footer {
+    background-color: white;
+    min-height: 150px;
+    text-align: center;
+}
+
+
+table {
+    border: 1px solid gray;
+    margin: 0 auto;
+    -webkit-box-shadow: 15px 13px 20px -3px rgba(97,97,97,1);
+    -moz-box-shadow: 15px 13px 20px -3px rgba(97,97,97,1);
+    box-shadow: 15px 13px 20px -3px rgba(97,97,97,1);
+}
+table th {
+    background-color: black;
+    color: white;
+}
+
